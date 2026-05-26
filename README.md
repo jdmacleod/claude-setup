@@ -8,6 +8,7 @@ A public reference repo for configuring and getting the most out of [Claude](htt
 |------|----------|
 | `CLAUDE.md` | How Claude behaves in this repo + what CLAUDE.md files are and how to use them |
 | `docs/tips-beginner.md` | Ten tips for new Claude Code users |
+| `docs/tips-intermediate.md` | Ten tips for intermediate Claude Code users |
 
 ## Using this repo
 

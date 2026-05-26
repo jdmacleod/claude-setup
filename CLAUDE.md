@@ -16,6 +16,7 @@ This file serves two purposes:
 
 **Conventions**
 - Docs live in `docs/`; each topic gets its own file
+- Tips files follow the naming pattern `tips-<level>.md` (beginner, intermediate, advanced)
 - Headings: sentence case, not title case
 - Code examples should be minimal and runnable
 - No trailing summaries after completing a task — changes speak for themselves
