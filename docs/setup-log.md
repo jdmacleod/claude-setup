@@ -10,4 +10,4 @@ Append-only record of when playbook entries were applied, on which machine, and 
 
 | Date | Machine | Action | Outcome | Notes |
 |------|---------|--------|---------|-------|
-| | | | | |
+| 2026-05-26 | rome | install ccstatusline | success | used defaults shown on GitHub video |

@@ -15,9 +15,9 @@ Each entry documents the rationale, current setup steps, and what needs periodic
 
 ## ccstatusline — Claude Code status line
 
-**Status:** current  
-**Last reviewed:** 2026-05-26  
-**Source:** https://github.com/sirmalloc/ccstatusline  
+- **Status:** current
+- **Last reviewed:** 2026-05-26
+- **Source:** https://github.com/sirmalloc/ccstatusline
 
 **Why:** Displays model name, context window percentage, session cost, git branch, and rate limit status in real time at the bottom of the Claude Code terminal. Provides at-a-glance awareness of cost and context without interrupting the session.
 
@@ -65,12 +65,19 @@ Open a new Claude Code session. The status line should appear at the bottom of t
 
 ### Configuration notes
 
-Record your widget choices here after setup, so they can be recreated without guessing:
+**TUI steps used to configure widgets:**
+
+- Edit lines → Line 1 → Add Widget: Context %, Tokens total, Session Cost
+- Edit lines → Line 2 → Add Widget: Session usage, Weekly usage, block reset timer, weekly reset timer
+- Set Session usage and Weekly usage to `(p)` short progress bar format
+
+**Resulting widget layout:**
 
 ```
-widgets:  (e.g. model | flex | context % | cost | git branch)
-refresh:  (e.g. 10s)
-theme:    (e.g. default)
+line 1:  model | context | context used % | git branch | git changes | total tokens | cost
+line 2:  session usage (bar) | weekly usage (bar) | block reset time | weekly reset time
+refresh: —
+theme:   —
 ```
 
 ### Maintenance
